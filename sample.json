@@ -1,0 +1,13 @@
+[
+    {
+        "name":"vijay",
+        "age":38,
+        "city":"Bangalore",
+        "amount":1500
+    },{
+        "name":"Rahul",
+        "age":28,
+        "city":"Tirunelveli",
+        "amount":2000
+    }
+]
