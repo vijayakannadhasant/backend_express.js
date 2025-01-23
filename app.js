@@ -8,7 +8,7 @@ const app = express();
 // middleware given by express
 // middleware means An intermediate between the client and the server 
 app.use(express.json()); 
-mongoose.connect("mongodb://localhost:27017/expenses_data").then(() => {
+mongoose.connect("mongodb+srv://vijayakannadhasant2023cse:Vijay2024@mycluster.efjo5.mongodb.net/fooddb").then(() => {
     console.log("connected to MongoDB")
 })
 const expenseSchema =  new mongoose.Schema({
